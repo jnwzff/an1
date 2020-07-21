@@ -18,7 +18,7 @@ public class FourActivity extends Activity {
 
     public void backFour(View view) {
         Intent intent = getIntent();
-        intent.putExtra("aa", "aa");
+        intent.putExtra("aa", "aab");
         setResult(RESULT_OK, intent);
         finish();
     }
